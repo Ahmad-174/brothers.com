@@ -1,0 +1,344 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+
+/* THis part of css  is related to the header of the webpage. This is actually a navbar. */
+.navbar {
+    /* width: 100%; */
+    height: 60px;
+    background-color: rgb(15, 17, 17);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.nav-logo {
+    height: 33px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("amazonlogo.png");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border :hover{
+    border: 1px solid white;
+}
+
+.nav-address {
+    /* background-color: navy; */
+    margin-left: 10px;
+
+    /* height: 50px;
+    width: 70px; */
+}
+
+.deliver{
+    font-weight: lighter;
+    font-size: 0.8rem;
+    margin-left: 15px;
+    color: #cccccc;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+
+}
+ 
+.pakistan{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border :hover{
+    border: 1px solid white;
+}
+
+
+.nav-search {
+    margin-left: 10px;
+    display: flex;    
+    width: 600px;
+}
+
+.select {
+    height: 40px;
+    color: black;
+    background-color: #f5f5f5;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+
+.searchamazon {
+    width: 100%;
+    height: 38px;
+}
+
+.search-icon {
+    background-color: rgb(255, 199, 43);
+    color: rgb(226, 226, 226);
+    height: 40px;
+    width: 50px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.nav-signin {
+    color: #f5f5f5;
+}
+
+.signin {
+    color: #cccccc;
+    font-weight: lighter;
+    font-size: 0.7rem
+}
+
+.nav-orders {
+    color: white;
+}
+
+.returns {
+    color: #cccccc;
+    font-weight: lighter;
+    font-size: 0.7rem
+}
+
+.accounts {
+    font-weight:bold ;
+}
+
+
+.nav-cart i {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.cart {
+    font-size: 0.7rem;
+    font-weight: lighter;
+}
+
+/* This is the part of website showing the panel that is related to deals, etc */
+.panel {
+    height: 40px;
+    background-color: rgba(20, 20, 20, 0.849);
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.partone {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.all {
+    margin-left: 4px;
+}
+.parttwo {
+    display: flex;
+    justify-content: center;
+    margin-right: 40%;
+}
+
+.parttwo p {
+    margin-left: 15px;
+}
+
+.partthree {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.box-encolse :hover{
+    border: 1px solid white;
+    padding: 6px;
+}
+
+/* this part of the page shows hero section */
+.hero-section {
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-paragraph {
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+    width: 800px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.click {
+    color: #017831;
+    font-weight: 400;
+}
+
+/* products boxes are directly related to the products yu wanna buy */
+.product-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #cdebcafa;
+    height: 500px;
+}
+
+.box {
+    width: 22%;
+    height: 430px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    border-radius: 1%;
+}
+
+h2 {
+    display: inline;
+    margin-left: 20px;
+}
+
+
+.show {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 01rem;
+    font-weight: 500;
+    color: #425f40;
+}
+
+/* product_images */
+.hero-image-one {
+    background-image: url("healthcare.jpg");
+    background-size: contain;
+    background-repeat: none;
+    width: 400px;
+    height: 320px;
+    margin-left: 25px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    border-radius: 1.2%;
+}
+
+.hero-image-two {
+    background-image: url("electronics.jpg");
+    background-size: contain;
+    background-repeat: none;
+    width: 400px;
+    height: 320px;
+    margin-left: 25px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    border-radius: 1.2%;
+}
+
+.hero-image-three {
+    background-image: url("healthcare.jpg");
+    background-size: contain;
+    background-repeat: none;
+    width: 400px;
+    height: 320px;
+    margin-left: 25px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    border-radius: 1.2%;
+}
+
+.hero-image-four {
+    background-image: url("hair_care.png");
+    background-size: contain;
+    background-repeat: none;
+    width: 400px;
+    height: 320px;
+    margin-left: 25px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    border-radius: 1.2%;
+}
+
+.hero-image-five {
+    background-image: url("Taste.jpg");
+    background-size: contain;
+    background-repeat: none;
+    width: 400px;
+    height: 320px;
+    margin-left: 25px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    border-radius: 1.2%;
+}
+
+/* footer           */
+
+.backtotop {
+    background-color: rgb(40, 43, 90);
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+
+.content-links {
+    height: 400px;
+    background-color: rgb(5, 5, 41);
+    color: #f5f5f5b2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul a {
+    display: block;
+    font-weight: 400;
+    margin-top: 3%;
+}
+
+ul p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #f5f5f5f5;
+}
+
+.lastpart {
+    background-color: rgb(0, 0, 7);
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+}
